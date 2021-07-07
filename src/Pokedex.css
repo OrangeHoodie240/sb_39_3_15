@@ -1,0 +1,16 @@
+.pokedex {
+    box-sizing: border-box;
+    display: grid; 
+    width: 60vw; 
+    margin-left: auto; 
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px; 
+    row-gap: 20px; 
+
+}
+.pokedex-header {
+    text-align: center;
+    margin-top: 7vh; 
+    color: lightgray;
+}
